@@ -1,0 +1,124 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+aside {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: green;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.brand {
+  width: 150px;
+  height: 150px;
+  margin-top: 80px;
+  border-radius: 50%;
+  margin-left: -5px;
+}
+.user {
+  font-weight: bold;
+  padding-top: 10px;
+  color: white;
+}
+main {
+  margin-left: 210px;
+}
+
+nav {
+  padding-bottom: 20px; /* Add spacing between the header and navigation */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  padding: 15px 20px;
+  margin: 5px 0 5px 0;
+  display: block;
+  color: white;
+}
+
+nav a:hover {
+  background-color: #1a6ed8;
+}
+
+nav .icon {
+  width: 25px;
+  float: left;
+  padding-right: 10px;
+}
+
+.info {
+  background-color: white;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+table {
+  margin: 0px 80px;
+  border: 1px solid #000;
+  border-collapse: collapse;
+  width: 90%;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+table th {
+  border: 1px solid #000;
+  margin: 0px 80px;
+  padding: 8px;
+  background-color: #FFFF00;
+  font-weight: bold;
+  text-align: left;
+}
+
+table td {
+  margin: 0px 80px;
+  border: 1px solid #000;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  margin: 0px 80px;
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #e0e0e0;
+}
+
+.btn {
+  background-color: #00563F;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 5px;
+}
+.btn:hover {
+  background-color: #1e7ff5;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  padding: 20px 0 20px 10px;
+  background-color: #f5f7fa;
+  width: 100%;
+  border-top: 1px solid #d8dadf;
+}
